@@ -1,4 +1,4 @@
-# StoryCraft Agent
+# StoryForge Agent
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/downloads/release/python-3120/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-✅-orange)](https://streamlit.io/)
@@ -7,7 +7,7 @@
 
 ## Overview
 
-StoryCraft Agent is a Python-powered knowledge assistant that combines real-time search with modern generative AI. It provides both:
+StoryForge Agent is a Python-powered knowledge assistant that combines real-time search with modern generative AI. It provides both:
 
 - a Streamlit web app for interactive exploration,
 - an MCP server endpoint for programmatic access.
@@ -26,7 +26,7 @@ The app accepts a topic or question, fetches current information through the Tav
 ## Project Structure
 
 ```text
-StoryCraft Agent/
+StoryFroge Agent/
 ├── .env
 ├── pyproject.toml
 ├── src/
@@ -100,7 +100,7 @@ To inspect MCP tools and calls, use the MCP inspector available with FastMCP or 
 
 ## Architecture
 
-Story Craft Agent is organized for clarity and reuse:
+Story Forge Agent is organized for clarity and reuse:
 
 - `src/core/` contains the application logic:
   - `config.py` loads API keys and environment configuration,
